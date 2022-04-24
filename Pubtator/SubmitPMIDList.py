@@ -47,7 +47,7 @@ def SubmitPMIDList(Inputfile,Format,Bioconcept):
 ##                                print(line)
                                 for xx in objs["collection"]["document"][ob]["passage"][1]["annotation"]:
         ##                                print(xx['@id'])
-                                        line=line.replace(objs["collection"]["document"][ob]["passage"][1]["text"][int(xx['location']['@offset'])-offset-1:int(xx['location']['@offset'])+int(xx['location']['@length'])-offset],"GENE:"+xx['infon'][0]['#text'])
+                                        line=line.replace(objs["collection"]["document"][ob]["passage"][1]["text"][int(xx['location']['@offset'])-offset-1:int(xx['location']['@offset'])+int(xx['location']['@length'])-offset],"GENE_"+xx['infon'][0]['#text'])
 ##                                        print(xx['infon'][0]['#text'])
 ##                                        print(xx['location']['@offset'])
 ##                                        print(xx['location']['@length'])
