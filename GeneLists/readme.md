@@ -1,6 +1,6 @@
 # GeneLists
 
-This folder containes the Gene Lists and Mappings
+This folder containes the Gene Lists and Mappings (mapping between EntrezID and Symbol)
 
 The mappings are created using org.hs.eg.db package of R
 
