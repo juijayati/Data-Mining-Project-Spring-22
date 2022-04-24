@@ -1,0 +1,9 @@
+ipykernel
+gensim
+nltk
+matplotlib
+openpyxl
+metapub
+seaborn
+scikit-learn
+xgboost
