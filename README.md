@@ -12,6 +12,7 @@
 ## Installation
 <a name="pip"></a>
 git clone https://github.com/juijayati/Data-Mining-Project-Spring-22.git
+
 pip install -r requirements.txt
 
 ## Text Corpora and Named Entity Recognition (NER)
