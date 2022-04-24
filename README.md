@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 ## Text Corpora and Named Entity Recognition (NER)
 <a name="ner"></a>
-We used PubMed rticles related to wound healing for trainiing the word vectors and used PubTator to annotate the gene and protein mentions in the abstracts. 
+We used PubMed articles related to wound healing for trainiing the word vectors and used PubTator to annotate the gene and protein mentions in the abstracts. 
 
 File: data_download_and_preprocessing.ipynb
 
